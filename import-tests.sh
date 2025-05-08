@@ -230,7 +230,7 @@ fi;
 
 echo ""
 echo "Importing WAVE SMTS Devices tests ..."
-git clone -b $branch --single-branch https://github.com/cta-wave/dpctf-tests dpctf
+git clone -b $branch --single-branch https://github.com/AMT-WAVE-Test-Suite/dpctf-tests dpctf
 mv dpctf/generated/* .
 mv dpctf/test-config.json .
 mv dpctf/test-subsets.json .
