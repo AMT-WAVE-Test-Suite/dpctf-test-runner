@@ -222,7 +222,7 @@ rm -rf $WPTBASEDIR/xhr
 # delete old MANIFEST.json
 rm MANIFEST.json
 
-branch="testingStuff"
+branch="master"
 
 if [[ -n "$1" ]]; then
 	branch="$1";
