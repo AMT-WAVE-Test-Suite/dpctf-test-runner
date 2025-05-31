@@ -236,6 +236,11 @@ mv dpctf/test-config.json .
 mv dpctf/test-subsets.json .
 rm -rf dpctf
 
+echo ""
+echo "DEBUG: groups in generated directory:"
+ls -la
+echo ""
+
 # build the MANIFEST.json
 # echo ""
 # echo "Building MANIFEST.json ..."
